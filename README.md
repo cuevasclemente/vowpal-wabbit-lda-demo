@@ -26,4 +26,4 @@ There are also some unix utils I guess not everyone has:
 - nltk
 - bs4
 - nltk.data:"tokenizers/punkt/english.pickle" 
-`$ python3 -m nltk.downloader tokenizers/punkt/english.pickle`
+`$ python3 -m nltk.downloader punkt`
