@@ -16,8 +16,6 @@ num_bits=$(echo "(l($word_count)) / l(2)" |\
   # We need to ceiling now
   awk '{if(int($1) > 0) {print(int($1)-1)} else {print(1) } }')
 
-echo "num_bits: $num_bits"
-
 vw --lda $(./get_data.py topics) -d training_set --readable_model wiki_model -b "$num_bits" 
 
 ./interpret_data.py
