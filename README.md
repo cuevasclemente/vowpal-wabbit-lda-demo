@@ -30,6 +30,7 @@ There are also some unix utils I guess not everyone has:
 
 
 ### Sample Output
+In theory, we hoped to see 4 topics that would have kind of aligned with the four wikipedia pages we chose in `get_data.py`; however, that's very unlikely, given that we have a very large amount of data and compartively only 4 topics, and given that we did not parse the tokens very well (as you can see in the tokenizations), and that we essentially took all of the text from each wikipedia page, which is a bit more exhaustive than we should really want to just have gotten four topics. Despite that, there is some structure to what has emerged, it is just perhaps a bit misleading. With more data, the freedom for more topics, or more careful choice of data, this would probably be a much more effective demonstration.
 ```
 sonnet), [7.141829, 6.848566, 0.10003, 7.950339]
 Gondwana, [0.100208, 43.513775, 41.522446, 17.428141]
