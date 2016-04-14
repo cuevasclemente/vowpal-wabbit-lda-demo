@@ -2,6 +2,8 @@
 
 A simple demonstration of vowpal wabbit's LDA model (perhaps unsuccessful right now)
 
+`$ ./run.sh `
+
 # What you need to run this
 ## Programs
 vowpal wabbit 
